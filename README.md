@@ -16,7 +16,7 @@ Get Image:
 > http://localhost:5000/images/:fileName
 
 Get Image with resize:
-> http://localhost:5000/images/:fileName?size=500 (width = 500, height = auto) >
+> http://localhost:5000/images/:fileName?size=500 (width = 500, height = auto)
 
 # Run with Docker
 `docker build -t demole-nft-api:latest .`
