@@ -10,11 +10,11 @@ Create and upload images to folder: ./images
 `node app`
 
 Get Metadata by tokenId:
-> http://localhost:5000/:tokenId
+> http://localhost:5000/:tokenId >
 Get Image:
-> http://localhost:5000/images/:fileName
+> http://localhost:5000/images/:fileName >
 Get Image with resize:
-> http://localhost:5000/images/:fileName?size=500 (width = 500, height = auto)
+> http://localhost:5000/images/:fileName?size=500 (width = 500, height = auto) >
 
 # Run with Docker
 `docker build -t demole-nft-api:latest .`
@@ -22,8 +22,8 @@ Get Image with resize:
 `docker-compose up`
 
 Get Metadata by tokenId:
-> http://localhost/:tokenId
+> http://localhost/:tokenId >
 Get Image:
-> http://localhost/images/:fileName
+> http://localhost/images/:fileName >
 Get Image with resize:
-> http://localhost/images/:fileName?size=500 (width = 500, height = auto)
+> http://localhost/images/:fileName?size=500 (width = 500, height = auto) >
