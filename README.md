@@ -1,6 +1,9 @@
 # demole-nft-api
 Demole NFT API
 
+# Upload
+Create and upload images to folder: ./images
+
 # Run
 `npm install`
 
