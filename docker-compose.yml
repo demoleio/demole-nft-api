@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  app:
+    image: demole-nft-api:latest
+    ports:
+      - "80:5000"
+    restart: unless-stopped
+    volumes: 
+      - ./images:/app/images
+      - ./metadata-id:/app/metadata-id
